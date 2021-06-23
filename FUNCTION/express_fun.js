@@ -1,7 +1,11 @@
-var funcName = function (num1, num2) {
+
+var funcName = function add(num1, num2) {
     if(num1===num2){
-        return 'yess';
+        console.log('rinku');
+        // return 'yess';
     }
-    return 'NO';
+    console.log(add);
+    // return 'NO';
 }
-console.log(funcName('rinki','Rinki'));
+funcName('rinki','Rinki');
+// add(3,3);
